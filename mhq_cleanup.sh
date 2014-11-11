@@ -38,6 +38,8 @@ DAEMON_NAME="com.macqh.mhq_cleanup.plist"
 #########################
 
 rm "/Library/LaunchAgents/${AGENT_NAME}"
+
+launchctl unload "/Library/LaunchDaemons/${DAEMON_NAME}"
 rm "/Library/LaunchDaemons/${DAEMON_NAME}"
 
 #########################
@@ -47,4 +49,3 @@ rm "/Library/LaunchDaemons/${DAEMON_NAME}"
 #########################
 
 rm "${0}"
-
