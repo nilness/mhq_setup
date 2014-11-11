@@ -107,3 +107,11 @@ killall Finder
 if [ -e "${TOOL_APP_LOCATION}${TOOL_APP_NAME}" ]; then
 	mv "${TOOL_APP_LOCATION}${TOOL_APP_NAME}" "/Users/${ACCOUNT_NAME}/Desktop/"
 fi
+
+#########################
+#
+# remove this script
+#
+#########################
+
+rm "${0}"
