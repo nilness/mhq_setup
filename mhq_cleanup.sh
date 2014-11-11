@@ -28,4 +28,23 @@
 #
 #########################
 
+AGENT_NAME="com.machq.mhq_setup.plist"
+DAEMON_NAME="com.macqh.mhq_cleanup.plist"
+
+#########################
+#
+# delete the agents & daemons
+#
+#########################
+
+rm "/Library/LaunchAgents/${AGENT_NAME}"
+rm "/Library/LaunchDaemons/${DAEMON_NAME}"
+
+#########################
+#
+# delete this script
+#
+#########################
+
+rm "${0}"
 
