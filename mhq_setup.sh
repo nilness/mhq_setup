@@ -34,7 +34,7 @@ SCREEN_SAVER_NAME="Random"
 SCREEN_SAVER_PATH="/System/Library/Screen Savers/Random.saver"
 HOME_PAGE="http://twitter.com/machq"
 TOOL_APP_LOCATION="/Users/shared/"
-TOOL_APP_NAME="MacHQ Tools 4.0.app"
+TOOL_APP_NAME="MacHQ Tools 5.app"
 
 #########################
 #
