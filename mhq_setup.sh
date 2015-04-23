@@ -33,7 +33,7 @@ ACCOUNT_NAME="me"
 SCREEN_SAVER_NAME="Random"
 SCREEN_SAVER_PATH="/System/Library/Screen Savers/Random.saver"
 HOME_PAGE="http://twitter.com/machq"
-TOOL_APP_LOCATION="/Users/shared/"
+TOOL_APP_LOCATION="/Users/Shared/"
 TOOL_APP_NAME="MacHQ Tools 5.app"
 
 #########################
@@ -79,7 +79,8 @@ defaults write com.apple.Safari NewWindowBehavior 0
 
 # this need sudo to run, at least during testing. hopefully run as a LaunchAgent it won't be necessary. also "systemsetup" may be useful but also requires sudo
 
-sudo pmset -c displaysleep 0 sleep 0 disksleep 0
+# disabled for now; being handled in Deploy Studio workflow
+#sudo pmset -c displaysleep 0 sleep 0 disksleep 0
 
 #########################
 #
