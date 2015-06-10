@@ -29,7 +29,7 @@
 #########################
 
 AGENT_NAME="com.machq.mhq_setup.plist"
-DAEMON_NAME="com.macqh.mhq_cleanup.plist"
+DAEMON_NAME="com.machq.mhq_cleanup.plist"
 
 #########################
 #
